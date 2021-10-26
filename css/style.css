@@ -1,11 +1,102 @@
+/* GLOBAL RESETS */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 /*
 
 TABLE OF CONTENTS
 
+# GLOBAL RESETS 
 # BASE TYPOGRAPHY
 # BUTTONS
 
 */
+/* BASE TEXT COLORS */
 body {
-  background: green;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+/* BASE HEADINGS */
+h1, h2, h3, h4, h5, h6 {
+  color: black;
+}
+
+/* BASE TEXT FONTS */
+body {
+  font-family: "Source Sans Pro", Helvetica, Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Source Serif Pro", Georgia, "Times New Roman", Times, serif;
+}
+
+/* BASE TYPOGRAPHY */
+body {
+  font-size: 100%;
+  line-height: 1.4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0.5em 0;
+}
+
+/* TYPOGRAPHIC SCALE */
+h1 {
+  font-size: 3em;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 2.25em;
+  line-height: 1.1;
+}
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1.2;
+}
+
+/* LIMIT NUMBER OF CHRACTERS PER LINE */
+p {
+  max-width: 40em;
+}
+
+/* HORIZONTAL LINE */
+hr {
+  border: 0;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 3em 0;
+}
+
+/* TYPE SPECIMEN */
+.headline {
+  font-size: 4em;
+  font-weight: normal;
+  line-height: 1;
+  margin: 0;
+  color: red;
+}
+
+.subheadline {
+  font-weight: normal;
+  font-size: 2.5em;
+  line-height: 1.1;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0.25em 0;
+}
+
+/* BUTTONS */
+.button {
+  display: inline-block;
+  background-color: red;
+  color: #fff;
+  text-decoration: none;
+  padding: 1em;
+  border-radius: 5px;
+}
+.button:hover {
+  background-color: #9e0000;
 }
