@@ -56,3 +56,16 @@ hr {
     color: $color-lightgrey;
     margin: .25em 0;
 }
+
+/* SECTION HEADING */
+.section-heading {
+    font-size: 1em;
+    font-family: $font-family-sans;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    border-bottom: 5px solid $color-accent;
+    display: table;
+    padding: 0 0 .5em 0;
+    margin: 1em auto 3em auto;
+}
